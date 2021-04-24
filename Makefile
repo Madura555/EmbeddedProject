@@ -3,8 +3,8 @@ PROJ_NAME = Heater
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\
-src/
+SRC = src/main.c
+
 
 # All header file paths
 INC = -I inc
