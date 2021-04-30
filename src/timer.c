@@ -1,5 +1,5 @@
 #include <avr/io.h>
-
+uint16_t temp;
 int timer()
 {
 TCCR1A|=(1<<COM1A1)|(1<<WGM11)|(1<<WGM10);
